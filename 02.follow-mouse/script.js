@@ -87,14 +87,7 @@ function toSleep() {
 // 唤醒
 function clickToWeakup() {
   isSleep = false;
-  // eyeFilter.style.opacity = '1'
   eyeFilter.className = bigEye.className = 'eyeSocket eyeSocketLooking'
-  // clearInterval(rotTimer);
-  // rotTimer = setInterval(() => {
-  //   getEyeballChart();
-  //   ballSize <= 50 && (ballSize += 1);
-  //   leftRotSize === 360 ? (leftRotSize = 0) : (leftRotSize += 0.5);
-  // }, 10);
 }
 
 bigEye.addEventListener('click', () => {
